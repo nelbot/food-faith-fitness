@@ -1,0 +1,60 @@
+/* Begin Additions by Nelson @ Once Coupled, October 2017 */
+
+/*
+Category Indicators
+---------------------------------------------------------------------------------------------------- */
+
+.term-indicators {
+  /*display: none;*/
+  overflow: auto;
+}
+
+.sidebar .term-indicators,
+.page .term-indicators {
+  max-width: 255px;
+  margin: 0 auto;
+}
+
+.page .term-indicators {
+  max-width: 380px;
+  text-align: center;
+}
+
+.term-indicators .indicator-container {
+  overflow: auto;
+  display: inline-block;
+}
+
+.indicator {
+  float: left;
+  display: table;
+  width: 55px;
+  height: 55px;
+  border-radius: 55px;
+  border-style: solid;
+  border-color: #302a2c
+  padding: 5px;
+  margin: 0 5px 10px 0;
+  color: #302a2c;
+  background: #ffffff;
+  font-family: "Droid Serif","Helvetica Neue",sans-serif;
+  font-size: 9px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.25;
+}
+
+.indicator:hover {
+  color: #ff1493;
+  background: #ffffff;
+}
+
+.indicator .term {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* End Additions by Nelson @ Once Coupled, October 2017 */
